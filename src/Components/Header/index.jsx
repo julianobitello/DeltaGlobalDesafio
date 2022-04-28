@@ -7,7 +7,6 @@ import { Navbar, NavMenu, Bars, NavMobile } from './styles';
 export default function Header() {
   function handleMobile() {
     document.querySelector('.toggle').classList.toggle('open');
-    console.log(document.querySelector('.toggle'));
   }
 
   return (
